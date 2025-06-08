@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # Load model
-model = load_model('model/mangalyze_model.keras')
+model = load_model('model/mangalyze_model.h5')
 
 # Label and recommendation maps
 label_map = {
