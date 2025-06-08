@@ -1,5 +1,5 @@
-keras>=3.0.0
-streamlit>=1.33.0
-numpy>=1.24.0
-Pillow>=10.0.0
-rich==13.7.0
+streamlit
+tensorflow
+h5py
+numpy
+pandas
