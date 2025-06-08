@@ -1,9 +1,9 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
-from keras.preprocessing.image import load_img, img_to_array
-from keras.applications.efficientnet import preprocess_input
-from keras.models import load_model
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
+from tensorflow.keras.applications.efficientnet import preprocess_input
+from tensorflow.keras.models import load_model
 
 # Set page config
 st.set_page_config(
