@@ -1,7 +1,5 @@
 import streamlit as st
 from PIL import Image
-import time
-import os
 import numpy as np
 from keras.preprocessing.image import load_img, img_to_array
 from keras.applications.efficientnet import preprocess_input
