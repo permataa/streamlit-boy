@@ -1,5 +1,6 @@
 streamlit==1.33.0
 keras==2.13.1
-numpy
+tensorflow==2.13.0
 pillow
+numpy
 rich==13.7.1
