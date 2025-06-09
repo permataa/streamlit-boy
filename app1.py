@@ -1,16 +1,11 @@
-try:
-    import tensorflow as tf
-    from tensorflow.keras.models import load_model
-    from tensorflow.keras.preprocessing.image import load_img, img_to_array
-    from tensorflow.keras.applications.efficientnet import preprocess_input
-except ImportError:
-    import sys
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "tensorflow-cpu"])
-    import tensorflow as tf
-    from tensorflow.keras.models import load_model
-    from tensorflow.keras.preprocessing.image import load_img, img_to_array
-    from tensorflow.keras.applications.efficientnet import preprocess_input
+import streamlit as st
+from PIL import Image
+import time
+import os
+import numpy as np
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
+from tensorflow.keras.applications.efficientnet import preprocess_input
+from tensorflow.keras.models import load_model
 
 # Set page config
 st.set_page_config(
