@@ -3,6 +3,7 @@ from PIL import Image
 import time
 import gdown
 import os
+import tensorflow as tf
 import numpy as np
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from tensorflow.keras.applications.efficientnet import preprocess_input
